@@ -1,0 +1,14 @@
+{
+  "name": "ishana_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Avanika Likhar <avanika.likhar@planetspark.in>",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "postcss ./app/assets/stylesheets/application.css -o ./app/assets/builds/application.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  }
+}
